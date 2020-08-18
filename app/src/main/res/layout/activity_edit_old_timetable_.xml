@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1"
+    tools:context=".Edit_old_timetable_Activity">
+
+    <RelativeLayout
+        android:id="@+id/layout_edit_timetable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/text_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_maroon"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Select the timetable to change"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/static_spinner_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_update"
+            android:layout_margin="4dp"
+            android:popupBackground="@color/light_blue"
+            android:background="@drawable/white_border"
+            android:padding="5dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/text_add_new_sub_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/static_spinner_edit"
+            android:padding="3dp"
+            android:background="@color/light_maroon"
+            android:text="Add New Subjects for Selected Timetable"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text_add_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dark_border"
+            android:gravity="center"
+            android:padding="3dp"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/text_add_new_sub_hint"
+            android:layout_toStartOf="@+id/add_updated_subs_button"
+            android:hint="Add Name Of Subject Here" />
+
+        <Button
+            android:id="@+id/add_updated_subs_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/white_border"
+            android:layout_below="@+id/text_add_new_sub_hint"
+            android:layout_alignParentEnd="true"
+            android:text="+" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/updated_list_view"
+        android:background="@drawable/white_border"
+        android:layout_width="match_parent"
+        android:layout_margin="4dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/save_changes_button"
+        android:layout_below="@+id/layout_edit_timetable">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/save_changes_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/white_border"
+        android:padding="3dp"
+        android:text="Save Changes" />
+
+</RelativeLayout>

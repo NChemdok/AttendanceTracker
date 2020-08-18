@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1"
+    tools:context=".Add_Absent_Date_Activity">
+
+    <RelativeLayout
+        android:background="@color/light_blue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_absent_date"
+            android:text="Date of Absence"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="3dp"
+            android:background="@color/light_maroon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/pick_date_text_view"
+            android:hint="Pick Date"
+            android:background="@drawable/white_border"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="6dp"
+            android:padding="6dp"
+            android:textSize="14sp"
+            android:clickable="true"
+            android:gravity="center"
+            android:focusable="true"
+            android:layout_below="@id/text_absent_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edit_text_specify_subject"
+            android:background="@drawable/white_border"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="6dp"
+            android:padding="6dp"
+            android:hint="(Optional) Specify Subjects"
+            android:layout_below="@id/pick_date_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/save_absent_date_button"
+            android:text="Save Date"
+            android:background="@drawable/white_border"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

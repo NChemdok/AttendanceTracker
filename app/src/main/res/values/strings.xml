@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Attendance Tracker</string>
+
+    <string-array name="day_of_week">
+        <item>------ TIMETABLE MODE ------ </item>
+        <item>DAY 1</item>
+        <item>DAY 2</item>
+        <item>DAY 3</item>
+        <item>DAY 4</item>
+        <item>DAY 5</item>
+        <item>DAY 6</item>
+    </string-array>
+
+    <string name="faq_details">
+        Follow these Steps\n
+        -\t From the Menu in the top Right Corner Press The Edit Profile Option\n\n
+        -\t Enter Name of Subject in the field provided and press the + button to add the subject to list\n\n
+        *\t You Can only enter a Maximum of 15 subjects\n\n
+        -\t After adding all your subjects press the Next Step Button\n\n
+        -\t Select the Subjects you have on a particular working day. To select press the subject name\n\n
+        *\t If no class on Saturday do not press any of the subjects\n\n
+        -\t Press the Save Timetable button to finalise timetable creation\n\n
+        -\t Now go back to main menu and press Update button\n\n
+        -\t Select the timetable from the drop down menu\n\n
+        -\t List of subjects for that day will be listed, press the subjects that were attended and if absent do not press any of the buttons\n\n
+        -\t Click the Submit Attendance\n\n
+        -\t To Check the current attendance status, press the Status Button\n\n
+        *\t You can wipe all your attendance data permanently by pressing the Wipe Data Option\n\n
+
+        ##\t You can Also choose to enter attendance for Single Subject, just select the option in the Update Layout\n\n
+        ##\t Saving of Absent Dates is Also possible, just select the option in the Update Layout\n\n
+        ##\t Absent Dates Can be Viewed by Selecting the Option Show Absent Dates\n\n
+
+    </string>
+
+    <string name="about_developer">
+        App Designed and Developed by\n
+        Slowthy Sloth\n\n
+        For suggestions or bug report contact me at slothychemdoksloth@gmail.com
+    </string>
+</resources>

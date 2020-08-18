@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1"
+    tools:context=".Add_Subjects_For_Each_Day_Activity">
+
+    <ScrollView
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/bottom_rel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linear_day_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_border"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_day_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:background="@color/light_maroon"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Select Subjects for Day 1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_1_sub_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_day_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear_day_1"
+                android:background="@drawable/white_border"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_day_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:background="@color/light_maroon"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Select Subjects for Day 2"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_2_sub_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_day_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear_day_2"
+                android:background="@drawable/white_border"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_day_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:background="@color/light_maroon"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Select Subjects for Day 3"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_3_sub_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_day_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear_day_3"
+                android:background="@drawable/white_border"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_day_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:background="@color/light_maroon"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Select Subjects for Day 4"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_4_sub_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_day_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear_day_4"
+                android:background="@drawable/white_border"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_day_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:background="@color/light_maroon"
+                    android:padding="5dp"
+                    android:text="Select Subjects for Day 5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_5_sub_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_day_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear_day_5"
+                android:background="@drawable/white_border"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_day_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:background="@color/light_maroon"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Select Subjects for Day 6"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_day_6_sub_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/toggle_button_state"
+                    android:textOff=""
+                    android:textOn=""
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/bottom_rel_layout"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_add_data_to_database"
+            android:background="@drawable/white_border"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Save Timetable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

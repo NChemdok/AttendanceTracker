@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.slothychemdoksloth.attendancetracker">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Show_Absent_Dates_Activity"></activity>
+        <activity android:name=".Add_Absent_Date_Activity" />
+        <activity android:name=".Add_Single_Attendance_Activity" />
+        <activity android:name=".Edit_old_timetable_Activity" />
+        <activity android:name=".Logout_Page_Activity" />
+        <activity android:name=".Submit_Attendance_Activity" />
+        <activity android:name=".Add_Subjects_For_Each_Day_Activity" />
+        <activity android:name=".Edit_Profile_Activity" />
+        <activity android:name=".Main_Page_Activity" />
+        <receiver android:name=".Notification_Receiver" android:enabled="true"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7717760204588800~9595139095" />
+    </application>
+
+</manifest>

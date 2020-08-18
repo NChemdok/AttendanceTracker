@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_edit_profile"
+        android:title="Edit Profile" />
+    <item android:id="@+id/menu_logout"
+        android:title="Logout" />
+    <item android:id="@+id/view_absent_dates"
+        android:title="Show Absent Dates" />
+    <item android:id="@+id/wipe_data"
+        android:title="Delete Records" />
+
+</menu>
